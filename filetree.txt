@@ -1,0 +1,14 @@
+.
+├── data/
+│   ├── raw/             # raw data files
+│   ├── processed/       # processed data files
+├── models/              # trained model files
+├── recommendation_engine/
+│   ├── __init__.py
+│   ├── preprocess.py    # preprocessing module
+│   ├── train.py         # training module
+│   ├── recommend.py     # recommendation module
+├── tests/               # unit test files
+├── build.py             # build script
+├── requirements.txt     # project dependencies
+└── README.md
