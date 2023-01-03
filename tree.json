@@ -1,0 +1,19 @@
+.
+├── data/                # contains data files
+│   ├── raw/             # contains raw data files
+│   |   ├── user_song_interactions.csv  # raw user-song interactions data
+│   |   ├── songs.csv                    # raw song metadata
+│   |   └── users.csv                    # raw user metadata
+│   └── processed/       # contains processed data files
+│       ├── user_item_matrix.npz         # processed user-item interaction matrix
+│       ├── song_features.npz            # processed song feature matrix
+│       └── user_features.npz            # processed user feature matrix
+├── models/              # contains trained model files
+├── recommendation_engine/  # contains recommendation engine code
+│   ├── __init__.py
+│   ├── preprocess.py    # preprocessing module
+│   ├── train.py         # training module
+│   ├── recommend.py     # recommendation module
+├── tests/               # contains unit test files
+├── build.py             # build script
+├── requirements.txt     # project dependencies
