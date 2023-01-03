@@ -25,3 +25,10 @@ To use the recommendation model, you will need to install the following dependen
 * NumPy
 * SciPy
 * scikit-learn
+
+You can then use the following code to make recommendations for a given user:
+`from recommendation_engine import recommend`
+
+`recommendations = recommend(user_id, model, user_item_matrix, n=10)`
+
+Where user_id is the ID of the user for whom you want to make recommendations, model is the trained recommendation model, user_item_matrix is the user-item interaction matrix, and n is the number of recommendations to generate.
