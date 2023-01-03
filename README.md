@@ -17,3 +17,11 @@ The recommendation model was evaluated using a test set consisting of 10% of the
 * Mean average error (MAE)
 * Root mean square error (RMSE)
 * The recommendation model achieved a MAE of 0.75 and a RMSE of 0.89 on the test set.
+
+## Usage
+
+To use the recommendation model, you will need to install the following dependencies:
+
+* NumPy
+* SciPy
+* scikit-learn
