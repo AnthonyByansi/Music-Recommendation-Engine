@@ -27,6 +27,7 @@ To use the recommendation model, you will need to install the following dependen
 * scikit-learn
 
 You can then use the following code to make recommendations for a given user:
+
 `from recommendation_engine import recommend`
 
 `recommendations = recommend(user_id, model, user_item_matrix, n=10)`
