@@ -9,7 +9,7 @@ def preprocess(data_dir):
     songs = pd.read_csv(data_dir / 'raw/songs.csv')
     users = pd.read_csv(data_dir / 'raw/users.csv')
 
-    # Merge the interactions and songs data
+    # Merge the interactions and songs data.
     interactions = interactions.merge(songs, on='song_id')
 
     # Convert the song_release_date column to a datetime object
