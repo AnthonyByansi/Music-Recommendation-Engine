@@ -4,3 +4,5 @@ If you want to suggest a new feature or report a bug, please open an issue in th
 If you want to contribute code, please make sure to write tests and update the documentation as necessary.
 We follow the GitHub Flow for managing contributions. This means that you should create a new branch for your work, and open a pull request when you are ready to have it reviewed.
 We aim to have a welcoming and inclusive community. Please follow the Code of Conduct when interacting with the project.
+
+Thank you for your contribution!
